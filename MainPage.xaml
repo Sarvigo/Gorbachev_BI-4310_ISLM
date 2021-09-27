@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayOut.MainPage"
+             BackgroundColor="#dcdde2"
+             Title="StackLayout Demo">
+    <StackLayout Margin="20">
+        <Label Text="StackLayout Demo" 
+            FontSize="40"
+            FontAttributes="Bold"
+            TextColor="#528e86"
+            HorizontalOptions = "Center"/>
+        <Label Text="Primary colors" 
+            FontSize="40"
+            FontAttributes="Italic"
+            TextColor="#9AB4B9"/>
+        <Frame BorderColor="#a19a90"
+            Padding="5"
+            CornerRadius="25">
+            <StackLayout Orientation="Horizontal"
+                Spacing="15">
+                <BoxView Color="#AAF0D1" 
+                    CornerRadius="20"/>
+                <Label Text="Magic Mint"
+                FontSize="30"
+                TextColor="#636250"
+                VerticalOptions="Center" 
+                FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="#a19a90"
+            Padding="5"
+            CornerRadius="25">
+            <StackLayout Orientation="Horizontal"
+                Spacing="15">
+                <BoxView Color="#7FFFD4" 
+                    CornerRadius="20"/>
+                <Label Text="Aquamarine"
+                FontSize="30"
+                TextColor="#636250"
+                VerticalOptions="Center" 
+                FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="#a19a90"
+            Padding="5"
+            CornerRadius="25">
+            <StackLayout Orientation="Horizontal"
+                Spacing="15">
+                <BoxView Color="#A8E4A0"
+                    CornerRadius="20"/>
+                <Label Text="Grandma's apples"
+                    FontSize="30"
+                    TextColor="#636250"
+                    VerticalOptions="Center" 
+                    FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        <Label Text="Secondary colors" 
+            FontSize="40"
+            FontAttributes="Italic"
+            TextColor="#9AB4B9"/>
+        <Frame BorderColor="#a19a90"
+            Padding="5"
+            CornerRadius="25">
+            <StackLayout Orientation="Horizontal"
+                Spacing="15">
+                <BoxView Color="#CC9293" 
+                    CornerRadius="20"/>
+                <Label Text="Greyish-purple-pink"
+                FontSize="30"
+                TextColor="#636250"
+                VerticalOptions="Center" 
+                FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="#a19a90"
+            Padding="5"
+            CornerRadius="25">
+            <StackLayout Orientation="Horizontal"
+                Spacing="15">
+                <BoxView Color="#413D51" 
+                    CornerRadius="20"/>
+                <Label Text="Greyish-purple-blue"
+                FontSize="30" 
+                TextColor="#636250"
+                VerticalOptions="Center" 
+                FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="#a19a90"
+            Padding="5"
+            CornerRadius="25">
+            <StackLayout Orientation="Horizontal"
+                Spacing="15">
+                <BoxView Color="#48442D" 
+                    CornerRadius="20"/>
+                <Label Text="Greyish-olive-green"
+                FontSize="30"
+                TextColor="#636250"
+                VerticalOptions="Center" 
+                FontAttributes="Bold"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+    
+
+</ContentPage>
+
+    <!--Цветокоррекция: Мальчикова Арина-->
+    <!--// Стиль элеентов: Горбачев Игорь-->
+    <!--// Стилизация текста: Калинин Максим-->
+    <!--// Группа: БИ-4310-->
